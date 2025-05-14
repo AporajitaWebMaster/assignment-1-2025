@@ -41,6 +41,13 @@ p{
     
     
 }
+
+.para{
+     position: relative;
+    top: -5px;
+
+}
+
 .button-1{
     background-color: black;
     color: #FFFFFF;
@@ -49,5 +56,260 @@ p{
     border: none;
     padding: 8px 12px;
      cursor: pointer; 
-
+     
     }
+    .bn-1{
+        position: relative;
+    top: -8px;}
+
+
+    .main-body{
+        justify-content: center;
+        width: 80%; /* ba joto dorkar */
+        
+  margin: 0 auto; /* eta diye horizontal center hoy */
+  text-align: center; /* vitore text o center hobe jodi chaow */
+  
+   
+    
+    }
+
+.main-1{
+    background-color: #0D132105;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     border: none;   
+    border-radius: 10px;  
+ bottom: -30px;
+    
+
+}
+.main-h1{
+    font-size: 20px; 
+
+}
+
+.div-space-1{
+    margin-bottom: 20px;
+
+}
+.div-space-2{
+  bottom: -30px;
+}
+
+
+
+.flex-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+  background-color: white;
+   margin-top: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional */
+  width: 80%;               /* Half of the body width */
+  margin: 0 auto;           /* Center horizontally */
+  padding: 1rem;   
+    margin-bottom: 20px;   
+    border: none;   
+    border-radius: 10px;   
+  
+}
+
+
+.flex-2{
+      margin-bottom: 20px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+  background-color: white;
+   margin-top: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional */
+  width: 80%;               /* Half of the body width */
+  margin: 0 auto;           /* Center horizontally */
+  padding: 1rem;   
+   border: none;   
+    border-radius: 10px;   
+  
+}
+
+.flex-3{
+
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+  background-color: white;
+margin-top: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional */
+  width: 80%;               /* Half of the body width */
+  margin: 0 auto  ;      /* Center horizontally */
+  padding: 1rem;   
+   border: none;   
+    border-radius: 10px;   
+  
+}
+.main-h2{
+    font-size: 18px;
+    
+}
+.image-main img{
+    height:100%;
+    width: 90%;
+    margin-top: 30px;
+
+}
+.img-button{
+    cursor: pointer;
+}
+
+
+.main-2{
+    margin-top: 60px;
+    
+}
+.Inspiration{
+    font-size: 18px;
+}
+
+
+
+/**.youtube-video{
+border:none;
+border-radius: 16px;
+background-color: #FFFFFF;
+    width: 50%;
+    height: 80%;
+    justify-content: center;
+}**/
+
+.youtube-video{
+  width: fit-content;
+  margin: 40px auto; /* Center horizontally with margin */
+  background-color: #ffffff; /* White background */
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }/* Optional for nicer look */
+
+.youtube-video iframe{
+     width: 500px; /* Smaller width */
+  height: 200px; /* Smaller height */
+  border-radius: 8px; /* Rounded corners for iframe */
+}
+
+.main-h3{
+    text-align: center;
+    font-size: 19px;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.html{
+    font-size: 12px;
+
+}
+.p-tag{
+    font-size: 9px;
+}
+.a-tag{
+    font-size: 12px;
+    color: blue;
+
+}
+.html-image{
+    height: 30px;
+    width: 35px;
+}
+.card-1{
+    background-color: #FF4C1E0D;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 9px;
+    padding: 10px;
+    
+
+}
+.card-2{
+    background-color:#004CE80D;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 9px;
+    padding: 10px;
+    
+
+}
+
+.card-3{
+    background-color: #FFDF000D;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 9px;
+    padding: 10px;
+    
+
+}
+
+.main-h4{
+    font-size: 19px;
+}
+.cards{
+    
+    
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+
+
+    
+}
+.cardss{
+    display: flex;
+    gap: 12px;
+     background-color:wheat;
+    border: black 4px;
+    border-radius: 10px;
+   padding: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.231);
+    
+}
+
+.react-h1{
+    font-size: 19px;
+
+}
+.react-img{
+    height: 50px;
+    width: 60px;
+    margin-top: 40px;
+}
+
+.texts{
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* চাইলে space evenly করতে  */
+  align-items: flex-start; /* টেক্সট বাঁদিকে রাখতে */
+  gap: 3px /* টেক্সটের মাঝে ফাঁকা রাখতে */
+     
+}
+
+.react-p{
+   text-align: left;
+   font-size: 13px;
+}
