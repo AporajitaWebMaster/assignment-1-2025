@@ -38,8 +38,6 @@ p{
 .img img{
     width: 20% ;/* Adjust this percentage as per your requirement */
     height: 20%;
-    
-    
 }
 
 .para{
@@ -69,9 +67,7 @@ p{
         
   margin: 0 auto; /* eta diye horizontal center hoy */
   text-align: center; /* vitore text o center hobe jodi chaow */
-  
-   
-    
+  padding: 15px;  
     }
 
 .main-1{
@@ -83,6 +79,7 @@ p{
      border: none;   
     border-radius: 10px;  
  bottom: -30px;
+ padding: 20px;
     
 
 }
@@ -99,8 +96,6 @@ p{
   bottom: -30px;
 }
 
-
-
 .flex-1{
     display: flex;
     justify-content: center;
@@ -115,10 +110,8 @@ p{
   padding: 1rem;   
     margin-bottom: 20px;   
     border: none;   
-    border-radius: 10px;   
-  
+    border-radius: 10px;     
 }
-
 
 .flex-2{
       margin-bottom: 20px;
@@ -135,9 +128,7 @@ p{
   padding: 1rem;   
    border: none;   
     border-radius: 10px;   
-  
 }
-
 .flex-3{
 
       display: flex;
@@ -152,24 +143,19 @@ margin-top: 1rem;
   margin: 0 auto  ;      /* Center horizontally */
   padding: 1rem;   
    border: none;   
-    border-radius: 10px;   
-  
+    border-radius: 10px;    
 }
 .main-h2{
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
 .image-main img{
     height:100%;
     width: 90%;
     margin-top: 30px;
-
 }
 .img-button{
     cursor: pointer;
 }
-
-
 .main-2{
     margin-top: 60px;
     
@@ -177,23 +163,11 @@ margin-top: 1rem;
 .Inspiration{
     font-size: 18px;
 }
-
-
-
-/**.youtube-video{
-border:none;
-border-radius: 16px;
-background-color: #FFFFFF;
-    width: 50%;
-    height: 80%;
-    justify-content: center;
-}**/
-
 .youtube-video{
   width: fit-content;
   margin: 40px auto; /* Center horizontally with margin */
-  background-color: #ffffff; /* White background */
-  padding: 10px;
+  background-color: whitesmoke; /* White background */
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }/* Optional for nicer look */
 
@@ -208,24 +182,20 @@ background-color: #FFFFFF;
     font-size: 19px;
     justify-content: center;
 }
-
 .card{
     display: flex;
     justify-content: center;
-    gap: 10px;
-    
+    gap: 10px; 
 }
 .html{
-    font-size: 12px;
-
+    font-size: 16px;
 }
 .p-tag{
-    font-size: 9px;
+    font-size: 14px;
 }
 .a-tag{
-    font-size: 12px;
+    font-size: 18px;
     color: blue;
-
 }
 .html-image{
     height: 30px;
@@ -238,8 +208,6 @@ background-color: #FFFFFF;
     border: none;
     border-radius: 9px;
     padding: 10px;
-    
-
 }
 .card-2{
     background-color:#004CE80D;
@@ -248,10 +216,7 @@ background-color: #FFFFFF;
     border: none;
     border-radius: 9px;
     padding: 10px;
-    
-
 }
-
 .card-3{
     background-color: #FFDF000D;
     justify-content: center;
@@ -259,48 +224,38 @@ background-color: #FFFFFF;
     border: none;
     border-radius: 9px;
     padding: 10px;
-    
-
 }
-
 .main-h4{
     font-size: 19px;
+    margin-top: 20px;
 }
 .cards{
-    
-    
   display: flex;
   flex-direction: column;
-  gap: 20px;
-
-
-
-    
+  gap: 20px; 
 }
 .cardss{
     display: flex;
     gap: 12px;
-     background-color:wheat;
+     background-color:rgba(216, 112, 147, 0.112);
     border: black 4px;
     border-radius: 10px;
    padding: 10px;
     box-sizing: border-box;
-    box-shadow: rgba(0, 0, 0, 0.231);
-    
+    box-shadow: rgba(0, 0, 0, 0.231); 
 }
-
+.Target-1{
+    margin-top: 20px;
+}
 .react-h1{
     font-size: 19px;
-
 }
 .react-img{
     height: 50px;
     width: 60px;
     margin-top: 40px;
 }
-
 .texts{
-    
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* চাইলে space evenly করতে  */
@@ -308,17 +263,14 @@ background-color: #FFFFFF;
   gap: 3px /* টেক্সটের মাঝে ফাঁকা রাখতে */
      
 }
-
 .react-p{
    text-align: left;
-   font-size: 13px;
+   font-size: 17px;
 }
-
 .flexible{
     display: flex;
     gap: 15px;
     justify-content: center;
-
 }
 .submit-1{
     height: 50px;
@@ -326,11 +278,8 @@ background-color: #FFFFFF;
     cursor: pointer;
     color: black;
     font-weight: bold;
-
 }
-
 .textarea{
-    
     width: 290px;
     cursor: pointer;
     height: 45px;     /* লাইন ছোট রাখতে */
@@ -350,6 +299,8 @@ background-color: #FFFFFF;
     background-position: center; 
     padding: 5px;
     margin-top: 30px;
+    margin-left: auto;
+margin-right: auto;
 }
 .main-h5{
     color: black;
@@ -357,14 +308,38 @@ background-color: #FFFFFF;
     font-weight: bold;
     margin-top: 30px;
 }
-
-
 .p1-tag{
     font-size: 15px;
 }
-
-
-
-
-
-
+.footer {
+  width: 100%;
+  background-color:#0D132108;
+  padding: 20px 40px;
+  color: black;
+  margin-top: 30px;
+ border: 2px solid rgba(0, 0, 0, 0.331); 
+ border-radius: 12px;
+  box-sizing: border-box; 
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between; /* h2 left e, icons right e */
+  align-items: center;             /* vertically center */
+  flex-wrap: wrap;               
+}
+.footer-h2 h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.color-1{
+  color: rgba(137, 43, 226, 0.838);}
+.icon-flex {
+  display: flex;
+  gap: 10px;
+   margin-right: 60px;
+}
+.icon-flex img {
+  width: 28px;
+  height: 28px;
+ 
+}
