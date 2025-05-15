@@ -313,3 +313,58 @@ background-color: #FFFFFF;
    text-align: left;
    font-size: 13px;
 }
+
+.flexible{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+}
+.submit-1{
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+
+}
+
+.textarea{
+    
+    width: 290px;
+    cursor: pointer;
+    height: 45px;     /* লাইন ছোট রাখতে */
+  resize: none;     /* ইউজার যেন সাইজ বাড়াতে না পারে */
+  overflow: hidden; /* ভেতরের স্ক্রলবার লুকাতে চাইলে */
+  white-space: nowrap; /* লাইনে wrap না করতে চাইলে */
+}
+.back-image{
+    background-image: url(../assets/handshake.jpg);
+    height: 300px;
+    width: 900px;
+    justify-content: center;
+    background-repeat: no-repeat;
+   display: block;
+    border-radius: 10px ;
+    background-size: cover;
+    background-position: center; 
+    padding: 5px;
+    margin-top: 30px;
+}
+.main-h5{
+    color: black;
+    font-size:38px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.p1-tag{
+    font-size: 15px;
+}
+
+
+
+
+
+
